@@ -4,7 +4,7 @@ from redis import Redis
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-from dares_data import dares
+from facts_data import dares
 
 TABLE_NAME = "DARES"
 
